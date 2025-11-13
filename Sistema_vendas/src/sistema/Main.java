@@ -17,6 +17,7 @@ public class Main {
 		double total = controlador.finalizarVenda(vendaAtual);
 		System.out.println("\n*** Resultado da Transação ***");
 		System.out.println("O total da venda é: R$ " + total); // Esperado: 27.50
+		
 		//venda2
 		Venda vendaAtual2 = controlador.iniciarVenda();
 		// 2. Ação do Usuário: ADICIONAR ITENS
