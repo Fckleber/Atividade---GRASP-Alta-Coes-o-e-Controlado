@@ -7,7 +7,6 @@ public class Produto {
 	this.nome = nome;
 	this.precoUnitario = precoUnitario;
 	}
-	// Método necessário para o Information Expert em ItemVenda
 	public double getPrecoUnitario() {
 	return precoUnitario;
 	}
